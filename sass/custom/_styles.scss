@@ -3,3 +3,29 @@
 html {
 	background:$page-bg;
 }
+
+body {
+  > div {
+      background: #fff !important;
+      border-bottom: 0px solid #fff;
+    > div {
+        background: #fff !important;
+        border-right-width: 0px;
+        border-bottom-width: 0px;
+      }
+  }
+  > header h1 {
+
+  }
+  > header h1 a,
+    header h1 a:visited, 
+    header h1 a:hover {
+      margin:0 auto;
+  }
+}
+aside.sidebar {
+  border-top:0px solid #fff;
+  background-color: #fff;
+}
+
+  
