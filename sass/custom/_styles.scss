@@ -1,12 +1,14 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
+
+
 html {
 	background:$page-bg;
-  border-top:5px solid #3EBB96;
 }
 
 body {
   > div {
+      max-width:920px;
       background: #fff !important;
       border-bottom: 0px solid #fff;
     > div {
@@ -17,6 +19,7 @@ body {
   }
   > header {
       text-align: center;
+      padding-top:60px;
   }
   > header img {
     display:block;
@@ -25,6 +28,11 @@ body {
   > header h1 a,
     header h1 a:visited, 
     header h1 a:hover {
+  }
+  > nav {
+    position:fixed;
+    z-index:1000;
+    min-width:100%;
   }
 }
 aside.sidebar {
@@ -36,5 +44,6 @@ aside.sidebar {
   padding:2%;
   border:2px solid #3EBB96;
 }
+
 
   
